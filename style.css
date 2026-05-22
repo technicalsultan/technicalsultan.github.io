@@ -1,0 +1,113 @@
+body{
+margin:0;
+font-family:Arial;
+background:#f2f2f2;
+padding-bottom:100px;
+}
+
+.topbar{
+background:#071952;
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:15px;
+color:white;
+}
+
+.logo img{
+width:70px;
+height:70px;
+border-radius:50%;
+border:3px solid gold;
+object-fit:cover;
+}
+
+.menu,.bell{
+font-size:28px;
+}
+
+.welcome{
+padding:20px;
+}
+
+.welcome h1{
+font-size:40px;
+margin:0;
+}
+
+.welcome p{
+color:gray;
+font-size:18px;
+}
+
+.banner{
+margin:15px;
+padding:30px;
+border-radius:20px;
+background:linear-gradient(45deg,#0044ff,#cc00ff);
+color:white;
+}
+
+.banner h1{
+font-size:55px;
+margin:10px 0;
+}
+
+.banner button{
+background:gold;
+border:none;
+padding:15px 25px;
+font-size:18px;
+border-radius:30px;
+margin-top:10px;
+}
+
+.grid{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:15px;
+padding:15px;
+}
+
+.card{
+padding:30px 20px;
+border-radius:20px;
+color:white;
+text-align:center;
+font-size:20px;
+font-weight:bold;
+}
+
+.blue{
+background:linear-gradient(45deg,#0066ff,#00ccff);
+}
+
+.green{
+background:linear-gradient(45deg,#00c853,#64dd17);
+}
+
+.purple{
+background:linear-gradient(45deg,#7b1fa2,#e040fb);
+}
+
+.orange{
+background:linear-gradient(45deg,#ff6d00,#ffab00);
+}
+
+.pink{
+background:linear-gradient(45deg,#ff0080,#ff4da6);
+}
+
+.bottom{
+position:fixed;
+bottom:0;
+left:0;
+width:100%;
+background:white;
+display:flex;
+justify-content:space-around;
+padding:15px 0;
+box-shadow:0 -2px 10px rgba(0,0,0,0.2);
+font-size:18px;
+text-align:center;
+}
